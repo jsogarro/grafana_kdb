@@ -1,0 +1,11 @@
+name: grafana_notebook
+channels:
+- defaults
+dependencies:
+- python=3.5.4=0
+- pip:
+    - pylint
+    - pytest
+    - pytest-cov
+    - toolz
+    - pyq
