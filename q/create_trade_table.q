@@ -2,16 +2,16 @@
 
 createTrade:{
   trade:([]date:();sym:();qty:());
-}
+ }
 
-seedTradeTable: {
+seedTradeTable:{
   `trade insert (2019.12.10;`MSFT;200);
   `trade insert (2019.12.10;`GOOGL;1300);
-  `trade insert (2019.12.10;`AMZN;1750);
-}
+  :`trade insert (2019.12.10;`AMZN;1750);
+ }
 
 main:{
-  / createTrade[];
+  createTrade[];
   seedTradeTable[];
 
   exit 0;
