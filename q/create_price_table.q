@@ -6,5 +6,5 @@ qtys:100*1+10000000?100
 ixs:10000000?3
 syms:`appl`amzn`googl ixs
 pxs:(1+10000000?.03)*172.0 1189.0 1073.0 ixs
-t:([] date:dates;time:times;sym:syms;qty:qtys;px:pxs)
-t:`date`time xasc t
+prices:([] date:dates;time:times;sym:syms;qty:qtys;px:pxs)
+prices:`date`time xasc prices
