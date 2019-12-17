@@ -1,0 +1,186 @@
+t=2019-12-17T04:25:25-0500 lvl=info msg="Request Completed" logger=context userId=1 orgId=1 uname=admin method=POST path=/api/datasources/proxy/2 status=502 remote_addr=[::1] time_ms=2 size=0 referer=http://localhost:3000/datasources/edit/2/
+t=2019-12-17T04:25:37-0500 lvl=info msg="Request Completed" logger=context userId=1 orgId=1 uname=admin method=POST path=/api/datasources/proxy/2 status=501 remote_addr=[::1] time_ms=3 size=0 referer=http://localhost:3000/datasources/edit/2/
+t=2019-12-17T04:26:16-0500 lvl=info msg="Request Completed" logger=context userId=1 orgId=1 uname=admin method=POST path=/api/datasources/proxy/2 status=502 remote_addr=[::1] time_ms=2 size=0 referer=http://localhost:3000/datasources/edit/2/
+t=2019-12-17T04:26:41-0500 lvl=eror msg="Request Completed" logger=context userId=1 orgId=1 uname=admin method=POST path=/api/datasources/proxy/2 status=500 remote_addr=[::1] time_ms=3 size=17 referer=http://localhost:3000/datasources/edit/2/
+t=2019-12-17T04:27:00-0500 lvl=info msg="Request Completed" logger=context userId=1 orgId=1 uname=admin method=POST path=/api/datasources/proxy/2 status=502 remote_addr=[::1] time_ms=2 size=0 referer=http://localhost:3000/datasources/edit/2/
+t=2019-12-17T04:37:04-0500 lvl=info msg="Request Completed" logger=context userId=1 orgId=1 uname=admin method=POST path=/api/datasources/proxy/1 status=502 remote_addr=[::1] time_ms=1 size=0 referer="http://localhost:3000/dashboard/new?panelId=2&edit&fullscreen&orgId=1"
+t=2019-12-17T04:37:10-0500 lvl=eror msg="Request Completed" logger=context userId=1 orgId=1 uname=admin method=POST path=/api/datasources/proxy/2/query status=500 remote_addr=[::1] time_ms=2 size=1 referer="http://localhost:3000/dashboard/new?panelId=2&edit&fullscreen&orgId=1"
+t=2019-12-17T04:43:16-0500 lvl=info msg="Request Completed" logger=context userId=1 orgId=1 uname=admin method=POST path=/api/datasources/proxy/1 status=502 remote_addr=[::1] time_ms=0 size=0 referer="http://localhost:3000/dashboard/new?panelId=2&edit&fullscreen&orgId=1"
+t=2019-12-17T04:43:20-0500 lvl=eror msg="Request Completed" logger=context userId=1 orgId=1 uname=admin method=POST path=/api/datasources/proxy/2/query status=500 remote_addr=[::1] time_ms=3 size=1 referer="http://localhost:3000/dashboard/new?panelId=2&edit&fullscreen&orgId=1"
+t=2019-12-17T04:44:04-0500 lvl=info msg="Request Completed" logger=context userId=1 orgId=1 uname=admin method=POST path=/api/datasources/proxy/1 status=502 remote_addr=[::1] time_ms=0 size=0 referer="http://localhost:3000/dashboard/new?panelId=2&edit&fullscreen&orgId=1"
+t=2019-12-17T04:44:12-0500 lvl=info msg="Shutdown started" logger=server reason="System signal: interrupt"
+t=2019-12-17T04:44:12-0500 lvl=info msg="Stopped InternalMetricsService" logger=server reason="context canceled"
+t=2019-12-17T04:44:12-0500 lvl=info msg="Stopped provisioningServiceImpl" logger=server reason="context canceled"
+t=2019-12-17T04:44:12-0500 lvl=info msg="Stopped Stream Manager"
+t=2019-12-17T04:44:12-0500 lvl=info msg="Stopped NotificationService" logger=server reason="context canceled"
+t=2019-12-17T04:44:12-0500 lvl=info msg="Stopped UsageStatsService" logger=server reason="context canceled"
+t=2019-12-17T04:44:12-0500 lvl=info msg="Stopped TracingService" logger=server reason=nil
+t=2019-12-17T04:44:12-0500 lvl=info msg="Stopped CleanUpService" logger=server reason="context canceled"
+t=2019-12-17T04:44:12-0500 lvl=info msg="Stopped UserAuthTokenService" logger=server reason="context canceled"
+t=2019-12-17T04:44:12-0500 lvl=info msg="Stopped RenderingService" logger=server reason=nil
+t=2019-12-17T04:44:12-0500 lvl=info msg="Stopped RemoteCache" logger=server reason="context canceled"
+t=2019-12-17T04:44:12-0500 lvl=info msg="Stopped PluginManager" logger=server reason="context canceled"
+t=2019-12-17T04:44:12-0500 lvl=info msg="Stopped AlertEngine" logger=server reason="context canceled"
+t=2019-12-17T04:44:13-0500 lvl=info msg="Stopped HTTPServer" logger=server reason=nil
+t=2019-12-17T04:44:13-0500 lvl=eror msg="Server shutdown" logger=server reason="System signal: interrupt"
+t=2019-12-17T04:44:26-0500 lvl=info msg="Starting Grafana" logger=server version=6.4.4 commit=unknown-dev branch=master compiled=2019-11-06T13:54:28-0500
+t=2019-12-17T04:44:26-0500 lvl=info msg="Config loaded from" logger=settings file=/Users/jogarro/grafana_basics/grafana-6.5.2/conf/defaults.ini
+t=2019-12-17T04:44:26-0500 lvl=info msg="Config loaded from" logger=settings file=/Users/jogarro/grafana_basics/grafana-6.5.2/conf/custom.ini
+t=2019-12-17T04:44:26-0500 lvl=info msg="Path Home" logger=settings path=/Users/jogarro/grafana_basics/grafana-6.5.2
+t=2019-12-17T04:44:26-0500 lvl=info msg="Path Data" logger=settings path=/Users/jogarro/grafana_basics/grafana-6.5.2/data
+t=2019-12-17T04:44:26-0500 lvl=info msg="Path Logs" logger=settings path=/Users/jogarro/grafana_basics/grafana-6.5.2/data/log
+t=2019-12-17T04:44:26-0500 lvl=info msg="Path Plugins" logger=settings path=/Users/jogarro/grafana_basics/plugins
+t=2019-12-17T04:44:26-0500 lvl=info msg="Path Provisioning" logger=settings path=/Users/jogarro/grafana_basics/grafana-6.5.2/conf/provisioning
+t=2019-12-17T04:44:26-0500 lvl=info msg="App mode production" logger=settings
+t=2019-12-17T04:44:26-0500 lvl=info msg="Initializing SqlStore" logger=server
+t=2019-12-17T04:44:26-0500 lvl=info msg="Connecting to DB" logger=sqlstore dbtype=sqlite3
+t=2019-12-17T04:44:26-0500 lvl=info msg="Starting DB migration" logger=migrator
+t=2019-12-17T04:44:26-0500 lvl=info msg="Initializing HTTPServer" logger=server
+t=2019-12-17T04:44:26-0500 lvl=info msg="Initializing InternalMetricsService" logger=server
+t=2019-12-17T04:44:26-0500 lvl=info msg="Initializing RemoteCache" logger=server
+t=2019-12-17T04:44:26-0500 lvl=info msg="Initializing QuotaService" logger=server
+t=2019-12-17T04:44:26-0500 lvl=info msg="Initializing ServerLockService" logger=server
+t=2019-12-17T04:44:26-0500 lvl=info msg="Initializing UserAuthTokenService" logger=server
+t=2019-12-17T04:44:26-0500 lvl=info msg="Initializing PluginManager" logger=server
+t=2019-12-17T04:44:26-0500 lvl=info msg="Starting plugin search" logger=plugins
+t=2019-12-17T04:44:26-0500 lvl=info msg="Registering plugin" logger=plugins name="GraphQL Data Source"
+t=2019-12-17T04:44:26-0500 lvl=info msg="Registering plugin" logger=plugins name="kdb+ DataSource"
+t=2019-12-17T04:44:26-0500 lvl=warn msg="Plugin missing module.js" logger=plugins name="Simple Panel" warning="Missing module.js, If you loaded this plugin from git, make sure to compile it." path=/Users/jogarro/grafana_basics/plugins/simple-react-panel/src/module.js
+t=2019-12-17T04:44:26-0500 lvl=info msg="Registering plugin" logger=plugins name="Simple Panel"
+t=2019-12-17T04:44:26-0500 lvl=info msg="Initializing RenderingService" logger=server
+t=2019-12-17T04:44:26-0500 lvl=info msg="Initializing AlertEngine" logger=server
+t=2019-12-17T04:44:26-0500 lvl=info msg="Initializing DatasourceCacheService" logger=server
+t=2019-12-17T04:44:26-0500 lvl=info msg="Initializing HooksService" logger=server
+t=2019-12-17T04:44:26-0500 lvl=info msg="Initializing LoginService" logger=server
+t=2019-12-17T04:44:26-0500 lvl=info msg="Initializing SearchService" logger=server
+t=2019-12-17T04:44:26-0500 lvl=info msg="Initializing TracingService" logger=server
+t=2019-12-17T04:44:26-0500 lvl=info msg="Initializing UsageStatsService" logger=server
+t=2019-12-17T04:44:26-0500 lvl=info msg="Initializing CleanUpService" logger=server
+t=2019-12-17T04:44:26-0500 lvl=info msg="Initializing NotificationService" logger=server
+t=2019-12-17T04:44:26-0500 lvl=info msg="Initializing provisioningServiceImpl" logger=server
+t=2019-12-17T04:44:26-0500 lvl=info msg="Backend rendering via phantomJS" logger=rendering
+t=2019-12-17T04:44:26-0500 lvl=warn msg="phantomJS is deprecated and will be removed in a future release. You should consider migrating from phantomJS to grafana-image-renderer plugin." logger=rendering
+t=2019-12-17T04:44:26-0500 lvl=info msg="Initializing Stream Manager"
+t=2019-12-17T04:44:26-0500 lvl=info msg="HTTP Server Listen" logger=http.server address=0.0.0.0:3000 protocol=http subUrl= socket=
+t=2019-12-17T04:45:00-0500 lvl=info msg="Request Completed" logger=context userId=1 orgId=1 uname=admin method=POST path=/api/datasources/proxy/1 status=502 remote_addr=[::1] time_ms=0 size=0 referer="http://localhost:3000/dashboard/new?panelId=2&edit&fullscreen&orgId=1"
+t=2019-12-17T04:45:05-0500 lvl=eror msg="Request Completed" logger=context userId=1 orgId=1 uname=admin method=POST path=/api/datasources/proxy/2/query status=500 remote_addr=[::1] time_ms=2 size=1 referer="http://localhost:3000/dashboard/new?panelId=2&edit&fullscreen&orgId=1"
+t=2019-12-17T04:46:55-0500 lvl=info msg="Request Completed" logger=context userId=1 orgId=1 uname=admin method=POST path=/api/datasources/proxy/2/query status=502 remote_addr=[::1] time_ms=4 size=0 referer="http://localhost:3000/dashboard/new?panelId=2&edit&fullscreen&orgId=1"
+t=2019-12-17T04:51:42-0500 lvl=info msg="Request Completed" logger=context userId=1 orgId=1 uname=admin method=POST path=/api/datasources/proxy/1 status=502 remote_addr=[::1] time_ms=0 size=0 referer="http://localhost:3000/dashboard/new?panelId=2&edit&fullscreen&orgId=1"
+t=2019-12-17T04:51:49-0500 lvl=info msg="Request Completed" logger=context userId=1 orgId=1 uname=admin method=POST path=/api/datasources/proxy/1 status=502 remote_addr=[::1] time_ms=0 size=0 referer="http://localhost:3000/dashboard/new?panelId=2&edit&fullscreen&orgId=1"
+t=2019-12-17T04:51:58-0500 lvl=info msg="Shutdown started" logger=server reason="System signal: interrupt"
+t=2019-12-17T04:51:58-0500 lvl=info msg="Stopped UsageStatsService" logger=server reason="context canceled"
+t=2019-12-17T04:51:58-0500 lvl=info msg="Stopped CleanUpService" logger=server reason="context canceled"
+t=2019-12-17T04:51:58-0500 lvl=info msg="Stopped InternalMetricsService" logger=server reason="context canceled"
+t=2019-12-17T04:51:58-0500 lvl=info msg="Stopped UserAuthTokenService" logger=server reason="context canceled"
+t=2019-12-17T04:51:58-0500 lvl=info msg="Stopped Stream Manager"
+t=2019-12-17T04:51:58-0500 lvl=info msg="Stopped RenderingService" logger=server reason=nil
+t=2019-12-17T04:51:58-0500 lvl=info msg="Stopped PluginManager" logger=server reason="context canceled"
+t=2019-12-17T04:51:58-0500 lvl=info msg="Stopped NotificationService" logger=server reason="context canceled"
+t=2019-12-17T04:51:58-0500 lvl=info msg="Stopped RemoteCache" logger=server reason="context canceled"
+t=2019-12-17T04:51:58-0500 lvl=info msg="Stopped TracingService" logger=server reason=nil
+t=2019-12-17T04:51:58-0500 lvl=info msg="Stopped provisioningServiceImpl" logger=server reason="context canceled"
+t=2019-12-17T04:51:58-0500 lvl=info msg="Stopped AlertEngine" logger=server reason="context canceled"
+t=2019-12-17T04:51:58-0500 lvl=info msg="Stopped HTTPServer" logger=server reason=nil
+t=2019-12-17T04:51:58-0500 lvl=eror msg="Server shutdown" logger=server reason="System signal: interrupt"
+t=2019-12-17T04:52:01-0500 lvl=info msg="Starting Grafana" logger=server version=6.4.4 commit=unknown-dev branch=master compiled=2019-11-06T13:54:28-0500
+t=2019-12-17T04:52:01-0500 lvl=info msg="Config loaded from" logger=settings file=/Users/jogarro/grafana_basics/grafana-6.5.2/conf/defaults.ini
+t=2019-12-17T04:52:01-0500 lvl=info msg="Config loaded from" logger=settings file=/Users/jogarro/grafana_basics/grafana-6.5.2/conf/custom.ini
+t=2019-12-17T04:52:01-0500 lvl=info msg="Path Home" logger=settings path=/Users/jogarro/grafana_basics/grafana-6.5.2
+t=2019-12-17T04:52:01-0500 lvl=info msg="Path Data" logger=settings path=/Users/jogarro/grafana_basics/grafana-6.5.2/data
+t=2019-12-17T04:52:01-0500 lvl=info msg="Path Logs" logger=settings path=/Users/jogarro/grafana_basics/grafana-6.5.2/data/log
+t=2019-12-17T04:52:01-0500 lvl=info msg="Path Plugins" logger=settings path=/Users/jogarro/grafana_basics/plugins
+t=2019-12-17T04:52:01-0500 lvl=info msg="Path Provisioning" logger=settings path=/Users/jogarro/grafana_basics/grafana-6.5.2/conf/provisioning
+t=2019-12-17T04:52:01-0500 lvl=info msg="App mode production" logger=settings
+t=2019-12-17T04:52:01-0500 lvl=info msg="Initializing SqlStore" logger=server
+t=2019-12-17T04:52:01-0500 lvl=info msg="Connecting to DB" logger=sqlstore dbtype=sqlite3
+t=2019-12-17T04:52:01-0500 lvl=info msg="Starting DB migration" logger=migrator
+t=2019-12-17T04:52:01-0500 lvl=info msg="Initializing HTTPServer" logger=server
+t=2019-12-17T04:52:01-0500 lvl=info msg="Initializing InternalMetricsService" logger=server
+t=2019-12-17T04:52:01-0500 lvl=info msg="Initializing RemoteCache" logger=server
+t=2019-12-17T04:52:01-0500 lvl=info msg="Initializing QuotaService" logger=server
+t=2019-12-17T04:52:01-0500 lvl=info msg="Initializing ServerLockService" logger=server
+t=2019-12-17T04:52:01-0500 lvl=info msg="Initializing UserAuthTokenService" logger=server
+t=2019-12-17T04:52:01-0500 lvl=info msg="Initializing PluginManager" logger=server
+t=2019-12-17T04:52:01-0500 lvl=info msg="Starting plugin search" logger=plugins
+t=2019-12-17T04:52:01-0500 lvl=info msg="Registering plugin" logger=plugins name="GraphQL Data Source"
+t=2019-12-17T04:52:01-0500 lvl=info msg="Registering plugin" logger=plugins name="kdb+ DataSource"
+t=2019-12-17T04:52:01-0500 lvl=info msg="Registering plugin" logger=plugins name=SimpleJson
+t=2019-12-17T04:52:01-0500 lvl=warn msg="Plugin missing module.js" logger=plugins name="Simple Panel" warning="Missing module.js, If you loaded this plugin from git, make sure to compile it." path=/Users/jogarro/grafana_basics/plugins/simple-react-panel/src/module.js
+t=2019-12-17T04:52:01-0500 lvl=info msg="Registering plugin" logger=plugins name="Simple Panel"
+t=2019-12-17T04:52:01-0500 lvl=info msg="Initializing RenderingService" logger=server
+t=2019-12-17T04:52:01-0500 lvl=info msg="Initializing AlertEngine" logger=server
+t=2019-12-17T04:52:01-0500 lvl=info msg="Initializing DatasourceCacheService" logger=server
+t=2019-12-17T04:52:01-0500 lvl=info msg="Initializing HooksService" logger=server
+t=2019-12-17T04:52:01-0500 lvl=info msg="Initializing LoginService" logger=server
+t=2019-12-17T04:52:01-0500 lvl=info msg="Initializing SearchService" logger=server
+t=2019-12-17T04:52:01-0500 lvl=info msg="Initializing TracingService" logger=server
+t=2019-12-17T04:52:01-0500 lvl=info msg="Initializing UsageStatsService" logger=server
+t=2019-12-17T04:52:01-0500 lvl=info msg="Initializing CleanUpService" logger=server
+t=2019-12-17T04:52:01-0500 lvl=info msg="Initializing NotificationService" logger=server
+t=2019-12-17T04:52:01-0500 lvl=info msg="Initializing provisioningServiceImpl" logger=server
+t=2019-12-17T04:52:01-0500 lvl=info msg="Backend rendering via phantomJS" logger=rendering
+t=2019-12-17T04:52:01-0500 lvl=warn msg="phantomJS is deprecated and will be removed in a future release. You should consider migrating from phantomJS to grafana-image-renderer plugin." logger=rendering
+t=2019-12-17T04:52:01-0500 lvl=info msg="Initializing Stream Manager"
+t=2019-12-17T04:52:01-0500 lvl=info msg="HTTP Server Listen" logger=http.server address=0.0.0.0:3000 protocol=http subUrl= socket=
+t=2019-12-17T04:52:12-0500 lvl=info msg="Request Completed" logger=context userId=1 orgId=1 uname=admin method=POST path=/api/datasources/proxy/1 status=502 remote_addr=[::1] time_ms=1 size=0 referer="http://localhost:3000/dashboard/new?panelId=2&edit&fullscreen&orgId=1"
+t=2019-12-17T04:53:04-0500 lvl=info msg="Request Completed" logger=context userId=1 orgId=1 uname=admin method=POST path=/api/datasources/proxy/1 status=502 remote_addr=[::1] time_ms=1 size=0 referer="http://localhost:3000/dashboard/new?panelId=2&edit&fullscreen&orgId=1"
+t=2019-12-17T04:53:07-0500 lvl=info msg="Request Completed" logger=context userId=1 orgId=1 uname=admin method=POST path=/api/datasources/proxy/3/query status=502 remote_addr=[::1] time_ms=2 size=0 referer="http://localhost:3000/dashboard/new?panelId=2&edit&fullscreen&orgId=1"
+t=2019-12-17T05:02:13-0500 lvl=info msg="Request Completed" logger=context userId=0 orgId=0 uname= method=GET path=/dashboard/new status=302 remote_addr=127.0.0.1 time_ms=0 size=29 referer=
+t=2019-12-17T05:02:19-0500 lvl=info msg="Shutdown started" logger=server reason="System signal: interrupt"
+t=2019-12-17T05:02:19-0500 lvl=info msg="Stopped PluginManager" logger=server reason="context canceled"
+t=2019-12-17T05:02:19-0500 lvl=info msg="Stopped UsageStatsService" logger=server reason="context canceled"
+t=2019-12-17T05:02:19-0500 lvl=info msg="Stopped provisioningServiceImpl" logger=server reason="context canceled"
+t=2019-12-17T05:02:19-0500 lvl=info msg="Stopped UserAuthTokenService" logger=server reason="context canceled"
+t=2019-12-17T05:02:19-0500 lvl=info msg="Stopped NotificationService" logger=server reason="context canceled"
+t=2019-12-17T05:02:19-0500 lvl=info msg="Stopped RenderingService" logger=server reason=nil
+t=2019-12-17T05:02:19-0500 lvl=info msg="Stopped InternalMetricsService" logger=server reason="context canceled"
+t=2019-12-17T05:02:19-0500 lvl=info msg="Stopped Stream Manager"
+t=2019-12-17T05:02:19-0500 lvl=info msg="Stopped TracingService" logger=server reason=nil
+t=2019-12-17T05:02:19-0500 lvl=info msg="Stopped CleanUpService" logger=server reason="context canceled"
+t=2019-12-17T05:02:19-0500 lvl=info msg="Stopped RemoteCache" logger=server reason="context canceled"
+t=2019-12-17T05:02:19-0500 lvl=info msg="Stopped AlertEngine" logger=server reason="context canceled"
+t=2019-12-17T05:02:19-0500 lvl=info msg="Stopped HTTPServer" logger=server reason=nil
+t=2019-12-17T05:02:19-0500 lvl=eror msg="Server shutdown" logger=server reason="System signal: interrupt"
+t=2019-12-17T05:02:20-0500 lvl=info msg="Starting Grafana" logger=server version=6.4.4 commit=unknown-dev branch=master compiled=2019-11-06T13:54:28-0500
+t=2019-12-17T05:02:20-0500 lvl=info msg="Config loaded from" logger=settings file=/Users/jogarro/grafana_basics/grafana-6.5.2/conf/defaults.ini
+t=2019-12-17T05:02:20-0500 lvl=info msg="Config loaded from" logger=settings file=/Users/jogarro/grafana_basics/grafana-6.5.2/conf/custom.ini
+t=2019-12-17T05:02:20-0500 lvl=info msg="Path Home" logger=settings path=/Users/jogarro/grafana_basics/grafana-6.5.2
+t=2019-12-17T05:02:20-0500 lvl=info msg="Path Data" logger=settings path=/Users/jogarro/grafana_basics/grafana-6.5.2/data
+t=2019-12-17T05:02:20-0500 lvl=info msg="Path Logs" logger=settings path=/Users/jogarro/grafana_basics/grafana-6.5.2/data/log
+t=2019-12-17T05:02:20-0500 lvl=info msg="Path Plugins" logger=settings path=/Users/jogarro/grafana_basics/plugins
+t=2019-12-17T05:02:20-0500 lvl=info msg="Path Provisioning" logger=settings path=/Users/jogarro/grafana_basics/grafana-6.5.2/conf/provisioning
+t=2019-12-17T05:02:20-0500 lvl=info msg="App mode production" logger=settings
+t=2019-12-17T05:02:20-0500 lvl=info msg="Initializing SqlStore" logger=server
+t=2019-12-17T05:02:20-0500 lvl=info msg="Connecting to DB" logger=sqlstore dbtype=sqlite3
+t=2019-12-17T05:02:20-0500 lvl=info msg="Starting DB migration" logger=migrator
+t=2019-12-17T05:02:20-0500 lvl=info msg="Initializing HTTPServer" logger=server
+t=2019-12-17T05:02:20-0500 lvl=info msg="Initializing InternalMetricsService" logger=server
+t=2019-12-17T05:02:20-0500 lvl=info msg="Initializing RemoteCache" logger=server
+t=2019-12-17T05:02:20-0500 lvl=info msg="Initializing QuotaService" logger=server
+t=2019-12-17T05:02:20-0500 lvl=info msg="Initializing ServerLockService" logger=server
+t=2019-12-17T05:02:20-0500 lvl=info msg="Initializing UserAuthTokenService" logger=server
+t=2019-12-17T05:02:20-0500 lvl=info msg="Initializing PluginManager" logger=server
+t=2019-12-17T05:02:20-0500 lvl=info msg="Starting plugin search" logger=plugins
+t=2019-12-17T05:02:20-0500 lvl=info msg="Registering plugin" logger=plugins name="GraphQL Data Source"
+t=2019-12-17T05:02:20-0500 lvl=info msg="Registering plugin" logger=plugins name="kdb+ DataSource"
+t=2019-12-17T05:02:20-0500 lvl=info msg="Registering plugin" logger=plugins name=SimpleJson
+t=2019-12-17T05:02:20-0500 lvl=warn msg="Plugin missing module.js" logger=plugins name="Simple Panel" warning="Missing module.js, If you loaded this plugin from git, make sure to compile it." path=/Users/jogarro/grafana_basics/plugins/simple-react-panel/src/module.js
+t=2019-12-17T05:02:20-0500 lvl=info msg="Registering plugin" logger=plugins name="Simple Panel"
+t=2019-12-17T05:02:20-0500 lvl=info msg="Initializing RenderingService" logger=server
+t=2019-12-17T05:02:20-0500 lvl=info msg="Initializing AlertEngine" logger=server
+t=2019-12-17T05:02:20-0500 lvl=info msg="Initializing DatasourceCacheService" logger=server
+t=2019-12-17T05:02:20-0500 lvl=info msg="Initializing HooksService" logger=server
+t=2019-12-17T05:02:20-0500 lvl=info msg="Initializing LoginService" logger=server
+t=2019-12-17T05:02:20-0500 lvl=info msg="Initializing SearchService" logger=server
+t=2019-12-17T05:02:20-0500 lvl=info msg="Initializing TracingService" logger=server
+t=2019-12-17T05:02:20-0500 lvl=info msg="Initializing UsageStatsService" logger=server
+t=2019-12-17T05:02:20-0500 lvl=info msg="Initializing CleanUpService" logger=server
+t=2019-12-17T05:02:20-0500 lvl=info msg="Initializing NotificationService" logger=server
+t=2019-12-17T05:02:20-0500 lvl=info msg="Initializing provisioningServiceImpl" logger=server
+t=2019-12-17T05:02:20-0500 lvl=info msg="Backend rendering via phantomJS" logger=rendering
+t=2019-12-17T05:02:20-0500 lvl=warn msg="phantomJS is deprecated and will be removed in a future release. You should consider migrating from phantomJS to grafana-image-renderer plugin." logger=rendering
+t=2019-12-17T05:02:20-0500 lvl=info msg="Initializing Stream Manager"
+t=2019-12-17T05:02:20-0500 lvl=info msg="HTTP Server Listen" logger=http.server address=0.0.0.0:3000 protocol=http subUrl= socket=
+t=2019-12-17T05:13:33-0500 lvl=info msg="Request Completed" logger=context userId=1 orgId=1 uname=admin method=POST path=/api/datasources/proxy/1 status=502 remote_addr=[::1] time_ms=2 size=0 referer="http://localhost:3000/dashboard/new?panelId=2&edit&fullscreen&orgId=1"
+t=2019-12-17T05:13:37-0500 lvl=eror msg="Request Completed" logger=context userId=1 orgId=1 uname=admin method=POST path=/api/datasources/proxy/3/query status=500 remote_addr=[::1] time_ms=4 size=1 referer="http://localhost:3000/dashboard/new?panelId=2&edit&fullscreen&orgId=1"
+t=2019-12-17T05:19:52-0500 lvl=eror msg="Request Completed" logger=context userId=1 orgId=1 uname=admin method=POST path=/api/datasources/proxy/3/query status=500 remote_addr=[::1] time_ms=4 size=1 referer="http://localhost:3000/dashboard/new?panelId=2&edit&fullscreen&orgId=1&from=1576567087345&to=1576567087348"
