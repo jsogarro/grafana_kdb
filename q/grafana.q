@@ -1,18 +1,15 @@
-//////////////////////////////////////////////////////////////////////////////////////
-/////////////////////////////// GRAFANA-KDB CONNECTER ////////////////////////////////
-///////////////////////////////    AQUAQ ANALYTICS    ////////////////////////////////
-//////////////////////////////////////////////////////////////////////////////////////
-
-/////////////////////////////// USER DEFINED VARIABLES ///////////////////////////////
-
 // table of all queries made
 .gkdb.tab:([]time:.z.p;qry:enlist "starting table");
+
 // user defined column name of time column
 .gkdb.timeCol:`time;
+
 // json types of kdb datatypes
 .gkdb.types:(`short$til[20])!`array`boolean,#[3;`null],#[5;`number],#[10;`string];
+
 // milliseconds between 1970 and 2000
 .gkdb.epoch:946684800000;
+
 // user defined column name of sym column
 .gkdb.sym:`sym
 
@@ -52,7 +49,7 @@ search:{[rqt]
   rsp:string tabs;
   if[count timetabs;
     rsp,:s1:string` sv/:`t,/:timetabs;
-    rsp,:s2:string` sv/:`g,/:timetabs; 
+    rsp,:s2:string` sv/:`g,/:timetabs;
     rsp,:raze(s2,'"."),/:'c1:string {(cols x) where`number=.gkdb.types abs value type each x 0}each timetabs;
     rsp,:raze((string` sv/:`o,/:timetabs),'"."),/:'c1;
     if[count symtabs;
@@ -88,7 +85,7 @@ tsfunc:{[x;rqt]
   // form milliseconds since epoch column
   rqt:@[rqt;`msec;:;mil rqt .gkdb.timeCol];
   // select desired time period only
-  rqt:?[rqt;enlist(within;`msec;mil"P"$-1_'x[`range]`from`to);0b;()];  
+  rqt:?[rqt;enlist(within;`msec;mil"P"$-1_'x[`range]`from`to);0b;()];
 
   // cases for graph/table and sym arguments
   $[(2<numArgs)and`g~tyArgs;graphsym[first args 2;rqt];
@@ -96,7 +93,7 @@ tsfunc:{[x;rqt]
     (2=numArgs)and`g~tyArgs;graphnosym[colN;rqt];
     (2=numArgs)and`t~tyArgs;tablenosym[colN;rqt];
     (4=numArgs)and`o~tyArgs;othersym[args;rqt];
-    (3=numArgs)and`o~tyArgs;othernosym[first args 2;rqt]; 
+    (3=numArgs)and`o~tyArgs;othernosym[first args 2;rqt];
     `$"Wrong input"]
  };
 
