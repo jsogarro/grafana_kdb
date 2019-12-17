@@ -1,0 +1,30 @@
+{
+  "type": "datasource",
+  "name": "kdb+ DataSource",
+  "id": "kdb-datasource",
+  "metrics": true,
+
+  "info": {
+    "description": "kdb+ Datasource",
+    "author": {
+      "name": "Jamal O'Garro"
+    },
+    "keywords": ["kdb"],
+    "logos": {
+      "small": "img/logo.png",
+      "large": "img/logo.png"
+    },
+    "links": [
+      { "name": "Website", "url": "https://github.com/fifemon/graphql-datasource" },
+      { "name": "License", "url": "https://github.com/fifemon/graphql-datasource/blob/master/LICENSE" }
+    ],
+    "screenshots": [],
+    "version": "%VERSION%",
+    "updated": "%TODAY%"
+  },
+
+  "dependencies": {
+    "grafanaVersion": "6.4.x",
+    "plugins": []
+  }
+}

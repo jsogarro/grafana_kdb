@@ -1,0 +1,22 @@
+{
+  "name": "kdb-datasource",
+  "version": "1.0.0",
+  "description": "Generic kdb+ data source",
+  "scripts": {
+    "build": "grafana-toolkit plugin:build",
+    "test": "grafana-toolkit plugin:test",
+    "dev": "grafana-toolkit plugin:dev",
+    "watch": "grafana-toolkit plugin:dev --watch"
+  },
+  "author": "Jamal O'Garro",
+  "license": "MIT",
+  "devDependencies": {
+    "@grafana/data": "canary",
+    "@grafana/toolkit": "canary",
+    "@grafana/ui": "canary"
+  },
+  "dependencies": {
+    "@types/lodash": "^4.14.144",
+    "q": "^1.5.1"
+  }
+}
